@@ -1,0 +1,23 @@
+------------------------------------------------------------
+/usr/bin/pip run on Tue Nov 28 03:23:22 2017
+Downloading/unpacking python-enchant
+  Getting page https://pypi.python.org/simple/python-enchant/
+  Could not fetch URL https://pypi.python.org/simple/python-enchant/: 404 Client Error: Not Found (python-enchant does not exist)
+  Will skip URL https://pypi.python.org/simple/python-enchant/ when looking for download links for python-enchant
+  Getting page https://pypi.python.org/simple/
+Operation cancelled by user
+Exception information:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/pip/basecommand.py", line 122, in main
+    status = self.run(options, args)
+  File "/usr/lib/python2.7/dist-packages/pip/commands/install.py", line 302, in run
+    requirement_set.cleanup_files(bundle=self.bundle)
+  File "/usr/lib/python2.7/dist-packages/pip/req.py", line 1317, in cleanup_files
+    logger.notify('Cleaning up...')
+  File "/usr/lib/python2.7/dist-packages/pip/log.py", line 102, in notify
+    self.log(self.NOTIFY, msg, *args, **kw)
+  File "/usr/lib/python2.7/dist-packages/pip/log.py", line 148, in log
+    if self.level_matches(level, consumer_level):
+  File "/usr/lib/python2.7/dist-packages/pip/log.py", line 246, in level_matches
+    if isinstance(level, slice):
+KeyboardInterrupt

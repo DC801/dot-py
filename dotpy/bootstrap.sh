@@ -11,7 +11,9 @@ sudo apt-get install python-dev python-pip python3-pip -q -y;
 # Python packages
 sudo pip install virtualenv;
 sudo pip install virtualenvwrapper;
-sudo pip3 install sopel;
+
+# virtualenv
+virtualenv -p /usr/bin/python3 venv_dotpy;
 
 mkdir ~/.virtualenvs;
 
